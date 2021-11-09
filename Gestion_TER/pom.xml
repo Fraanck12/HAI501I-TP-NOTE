@@ -17,6 +17,10 @@
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
+	<repository>
+    <id>github.com</id>
+    <url>https://github.com/ical4j/ical4j</url>
+       </repository>
 
   <dependencies>
     <dependency>
@@ -31,6 +35,18 @@
       <version>5.7.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    <groupId>com.github.ical4j</groupId>
+    <artifactId>ical4j</artifactId>
+    <version>3.1.0</version>
+    </dependency>
+
+    <dependency>
+	<groupId>org.junit.jupiter</groupId>
+	<artifactId>junit-jupiter-params</artifactId>
+	<version>3.1.0</version>
+	<scope>test</scope>
+</dependency>
   </dependencies>
 
   <build>
